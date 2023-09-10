@@ -1,8 +1,8 @@
-curl 'https://query2.finance.yahoo.com/v10/finance/quoteSummary/ES=F?formatted=true&crumb=sxCZygzUaUK&lang=en-US&region=US&modules=price%2CsummaryDetail&corsDomain=finance.yahoo.com' -H 'pragma: no-cache' -H 'origin: https://finance.yahoo.com' -H 'accept-encoding: gzip, deflate, sdch, br' -H 'accept-language: en-US,en;q=0.8,he;q=0.6' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36' -H 'accept: */*' -H 'cache-control: no-cache' -H 'authority: query2.finance.yahoo.com' -H 'cookie: B=1jmfastbret12&b=3&s=89; PRF=t%3DXIV%252BMSFT%252B0700.HK' -H 'referer: https://finance.yahoo.com/quote/XIV?p=XIV' --compressed
+curl 'https://query2.finance.yahoo.com/v6/finance/quoteSummary/ES=F?formatted=true&crumb=sxCZygzUaUK&lang=en-US&region=US&modules=price%2CsummaryDetail&corsDomain=finance.yahoo.com' -H 'pragma: no-cache' -H 'origin: https://finance.yahoo.com' -H 'accept-encoding: gzip, deflate, sdch, br' -H 'accept-language: en-US,en;q=0.8,he;q=0.6' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36' -H 'accept: */*' -H 'cache-control: no-cache' -H 'authority: query2.finance.yahoo.com' -H 'cookie: B=1jmfastbret12&b=3&s=89; PRF=t%3DXIV%252BMSFT%252B0700.HK' -H 'referer: https://finance.yahoo.com/quote/XIV?p=XIV' --compressed
 
 GENERAL
 
-Request URL:https://query2.finance.yahoo.com/v10/finance/quoteSummary/ES=F?formatted=true&crumb=sxCZygzUaUK&lang=en-US&region=US&modules=price%2CsummaryDetail&corsDomain=finance.yahoo.com
+Request URL:https://query2.finance.yahoo.com/v6/finance/quoteSummary/ES=F?formatted=true&crumb=sxCZygzUaUK&lang=en-US&region=US&modules=price%2CsummaryDetail&corsDomain=finance.yahoo.com
 Request Method:GET
 Status Code:200 
 Remote Address:87.248.116.12:443
@@ -31,7 +31,7 @@ REQUEST HEADERS
 
 :authority:query2.finance.yahoo.com
 :method:GET
-:path:/v10/finance/quoteSummary/ES=F?formatted=true&crumb=sxCZygzUaUK&lang=en-US&region=US&modules=price%2CsummaryDetail&corsDomain=finance.yahoo.com
+:path:/v6/finance/quoteSummary/ES=F?formatted=true&crumb=sxCZygzUaUK&lang=en-US&region=US&modules=price%2CsummaryDetail&corsDomain=finance.yahoo.com
 :scheme:https
 accept:*/*
 accept-encoding:gzip, deflate, sdch, br
